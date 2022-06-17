@@ -2,8 +2,8 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     /* Modules */
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    // "module": "ESNext",
+    // "moduleResolution": "Node",
     /* Modules */
 
     /* Language and Environment */
