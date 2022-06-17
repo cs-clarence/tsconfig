@@ -1,6 +1,11 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    /* Modules */
+
     /* Language and Environment */
     "lib": ["ESNext", "DOM", "WebWorker"]
     /* Language and Environment */

@@ -21,7 +21,7 @@
 
     /* Modules */
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     // Should be set on extending tsconfig.json
     // "rootDir": "../src", // Normally inferred by TypeScript but set it explicitly here
     "resolveJsonModule": true,
