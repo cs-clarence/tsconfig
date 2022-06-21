@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@rencedm112/tsconfig",
   "version": "1.0.2",
   "description": "Set of opinionated tsconfig files",
   "scripts": {
