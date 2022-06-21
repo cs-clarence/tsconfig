@@ -4,8 +4,8 @@
 
     /* Projects */
     // Should be set on extending tsconfig.json
-    "incremental": true,
-    "tsBuildInfoFile": "../tsconfig.tsbuildinfo",
+    // "incremental": true,
+    // "tsBuildInfoFile": "../tsconfig.tsbuildinfo",
     // "composite": true,
     "disableReferencedProjectLoad": true,
     /* Projects */
