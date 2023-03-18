@@ -4,9 +4,9 @@
 
     /* Projects */
     // Should be set on extending tsconfig.json
-    // "incremental": true,
-    // "tsBuildInfoFile": "../tsconfig.tsbuildinfo",
-    // "composite": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/tsconfig.tsbuildinfo",
+    "composite": true,
     "disableReferencedProjectLoad": true,
     /* Projects */
 
@@ -15,15 +15,14 @@
     "target": "ESNext",
     // "lib": ["ESNext"],
     "useDefineForClassFields": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     /* Language and Environment */
 
     /* Modules */
-    "module": "ESNext",
-    "moduleResolution": "Node",
     // Should be set on extending tsconfig.json
-    // "rootDir": "../src", // Normally inferred by TypeScript but set it explicitly here
+    // "module": "ESNext",
+    // "moduleResolution": "bundler",
+    // Should be set on extending tsconfig.json
+    "rootDir": "./src", // Normally inferred by TypeScript but set it explicitly here
     "resolveJsonModule": true,
     /* Modules */
 
@@ -40,7 +39,7 @@
     // "declarationDir": "./dist/types",
     // "outDir": "./dist",
     "importHelpers": true,
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "newLine": "lf",
     "stripInternal": true,
     "preserveConstEnums": true, // Don't erase const enums after compilation
@@ -49,16 +48,22 @@
     /* Interop Constraints */
     "isolatedModules": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     /* Interop Constraints */
 
     /* Type Checking */
     "strict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
     /* Type Checking */
 
     /* Completeness */

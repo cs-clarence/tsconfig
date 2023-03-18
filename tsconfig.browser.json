@@ -7,7 +7,7 @@
     /* Modules */
 
     /* Language and Environment */
-    "lib": ["ESNext", "DOM", "WebWorker"]
+    "lib": ["ESNext"]
     /* Language and Environment */
   }
 }
