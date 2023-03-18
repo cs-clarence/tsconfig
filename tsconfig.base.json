@@ -4,9 +4,9 @@
 
     /* Projects */
     // Should be set on extending tsconfig.json
-    "incremental": true,
-    "tsBuildInfoFile": "./node_modules/tsconfig.tsbuildinfo",
-    "composite": true,
+    // "incremental": true,
+    // "tsBuildInfoFile": "./node_modules/tsconfig.tsbuildinfo",
+    // "composite": true,
     "disableReferencedProjectLoad": true,
     /* Projects */
 
@@ -22,7 +22,7 @@
     // "module": "ESNext",
     // "moduleResolution": "bundler",
     // Should be set on extending tsconfig.json
-    "rootDir": "./src", // Normally inferred by TypeScript but set it explicitly here
+    // "rootDir": "./src", // Normally inferred by TypeScript but set it explicitly here
     "resolveJsonModule": true,
     /* Modules */
 
