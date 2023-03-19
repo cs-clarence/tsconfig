@@ -1,9 +1,10 @@
 {
-  "extends": "./tsconfig.base.json",
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "./base.json",
   "compilerOptions": {
     /* Modules */
-    // "module": "NodeNext",
-    // "moduleResolution": "NodeNext",
+    // "module": "ESNext",
+    // "moduleResolution": "Node",
     /* Modules */
 
     /* Language and Environment */
